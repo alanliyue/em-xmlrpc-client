@@ -1,8 +1,8 @@
-= em-xmlrpc-client
+## em-xmlrpc-client
 
 This gem monkey patches Ruby's built in XMLRPC::Client to be EventMachine + Fiber aware.  If you are not using EventMachine (or the reactor isn't running), then it will fallback to using XMLRPC::Client's default implemenation (using Net::HTTP).
 
-== Example
+## Example
 
   require "eventmachine"
   require "em-xmlrpc-client"
@@ -18,11 +18,11 @@ This gem monkey patches Ruby's built in XMLRPC::Client to be EventMachine + Fibe
   client = XMLRPC::Client.new2("http://blah.com/api")
   result = client.call("someMethod", "arg1", 123) # Uses Net::HTTP like normal.
 
-== Dependencies
+## Dependencies
 
 {em-http-request}[https://github.com/igrigorik/em-http-request] is required if you want to use the EventMachine + Fiber aware implementation.
 
-== Author
+## Author
 
 Christopher J. Bottaro
 
@@ -30,7 +30,7 @@ Christopher J. Bottaro
 
 @cjbottaro
 
-== Copyright and License
+## Copyright and License
 
 Copyright (c) 2017, Christopher J. Bottaro.
 
