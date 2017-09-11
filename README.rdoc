@@ -34,5 +34,5 @@ Christopher J. Bottaro
 
 Copyright (c) 2017, Christopher J. Bottaro.
 
-This project is licensed under the {MIT License}[https://github.com/cjbottaro/em-xmlrpc-client/blob/license/LICENSE.md].
+This project is licensed under the {MIT License}[https://github.com/cjbottaro/em-xmlrpc-client/blob/master/LICENSE.md].
 
